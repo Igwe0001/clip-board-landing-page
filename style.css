@@ -9,6 +9,8 @@ body {
     background-color: white;
     background-image: url(images/bg-header-mobile.png);
     background-repeat: no-repeat;
+    background-position: top;
+    margin: 0 auto;
 }
 
 .container {
@@ -22,9 +24,11 @@ body {
 }
 
 .logo {
-    margin-top: 130px;
-    margin-left: 115px;
+    margin: 50px auto;
     padding-bottom: 60px;
+    align-content: center;
+    align-items: center;
+    display: block;
 }
 
 h1, p {
@@ -45,6 +49,8 @@ h1, p {
     color: hsl(201, 11%, 66%);
 }
 
+
+
 .button {
     padding: 25px 60px;
     display: flex;
@@ -61,6 +67,12 @@ h1, p {
      cursor: pointer;
      border-radius: 20px;
      box-shadow: 20px;
+     border: none;
+}
+
+.btn:hover {
+    color: black;
+    background-color: hsl(201, 11%, 66%);
 }
 
 .first {
@@ -96,8 +108,9 @@ h1, p {
 .computer {
     width: 70%;
     align-content: center;
-    margin: 0 50px;
-    padding-top: 50px
+    margin: 0 auto;
+    padding-top: 50px;
+    display: block;
 }
 
 .computer-text {
@@ -127,7 +140,8 @@ h1, p {
 }
 .devices {
     width: 90%;
-    margin: 0 20px;
+    margin: 0 auto;
+    display: block;
 }
 
 .section-4 {
@@ -168,7 +182,8 @@ h1, p {
     flex-direction: column;
     width: 30%;
     align-items: center;
-    margin: 0 120px;
+    margin: 0 auto;
+    display: block;
 }
 
 .logo-m {
@@ -178,38 +193,41 @@ h1, p {
 
 .section-5 {
     margin-top: 100px;
-    padding: 0 35px;
     text-align: center;
 }
 
 .section-5 h2 {
-    padding-bottom: 30px;
+    padding: 20px 40px ;
      font-family: 'Bai Jamjuree', sans-serif;
     color: hsl(210, 10%, 33%);
 }
 
 .section-5 p {
-    padding: 0 5px;
+    padding: 0 22px;
     line-height: 22px;
     font-family: 'Bai Jamjuree', sans-serif;
     color: hsl(201, 11%, 66%);
 }
 
-.section-5 .btn {
-    padding: 14px 10px;
-}
+
 .section-6 {
     align-content: center;
     align-items: center;
     margin: 0 120px;
     line-height: 32px;
     text-align: center;
-    margin-top: 110px;
+     margin: 0 auto;
+    margin-top: 90px;
+    height: 350px;
+    background-color:  hsla(201, 11%, 66%, .2);
+    width: 100%;
+
 }
 
 .lig {
     width: 50px;
     padding-bottom: 20px;
+    padding-top: 25px;
 }
 
 h5 {
@@ -217,7 +235,94 @@ h5 {
     color: hsl(201, 11%, 66%);
 }
 
+.icons {
+    padding-top: 20px;
+}
 
+.icon {
+    padding: 0 12px;
+}
+
+@media (min-width: 900px) {
+    body {
+        background-image: url(images/bg-header-desktop.png);
+    }
+
+    .section-1 h1 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .section-1 p {
+        font-size: 20px;
+        padding: 10px 70px;
+    }
+
+    .button {
+        flex-direction: row;
+        padding: 20px 180px;
+    }
+
+    .section-2 h2 {
+        font-size: 25px;
+    }
+
+    .para {
+        font-size: 15px;
+        padding: 0 4px;
+        line-height: 30px;
+    }
+
+    .row {
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .computer {
+        width: 400px;
+        height: 350px;
+        margin-left: -62px;
+    }
+
+
+    .computer-text {
+        padding-left: 90px;
+        text-align: left;
+    }
+
+    .computer-text p {
+        padding: 0;
+        text-align: left
+    }
+
+
+
+
+
+
+
+
+
+6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
