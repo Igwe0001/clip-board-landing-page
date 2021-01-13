@@ -73,17 +73,17 @@ h1, p {
 .btn:hover {
     color: black;
     background-color: hsl(201, 11%, 66%);
-    box-shadow: 2px 5px hsla(201, 11%, 66%);
+    box-shadow: 0 10px 25px hsl(201, 11%, 66%);
 }
 
 .first {
     background-color:hsl(171, 66%, 44%);
-    box-shadow: 2px 5px hsla(171, 66%, 44%, .25);
+    box-shadow:  0 10px 25px hsl(171, 66%, 44%);
 }
 
 .second {
     background-color:  hsl(233, 100%, 69%);
-    box-shadow: 2px 5px hsla(233, 100%, 69%, .4);
+    box-shadow: 0 10px 25px hsl(233, 100%, 69%);
 }
 
 .section-2  h2 {
